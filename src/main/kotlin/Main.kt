@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
     var count = 0
     // O(50조)
     // O(50_0000_0000_0000)
-    for (year in 17..21) {
+    for (year in 17..22) {
         // O(10조)
         for (number in 0 until 1_00000) {
             val numberText = toText(number, 5)
